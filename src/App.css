@@ -1,0 +1,414 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(./assets/images/vector.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.header {
+  margin-top: 43px;
+  margin-bottom: 131px;
+}
+.container {
+  max-width: 1037px;
+  width: 100%;
+  margin: 0% auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-family: "Manrope";
+font-size: 14px;
+font-weight: 600;
+line-height: 19.12px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+list-style: none;
+}
+.register a:hover{
+  color: coral;
+}
+.register a {
+  text-decoration: none;
+}
+.register {
+  display: flex;
+  align-items: center;
+  gap: 49px;
+  color: black;
+}
+.start {
+  border: 1px solid #4F46BA;
+  border-radius: 10px;
+  font-family: "Manrope";
+font-size: 14px;
+font-weight: 600;
+line-height: 19.12px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+background-color: #4F46BA;
+width: 137px;
+height: 52px;
+padding-top: 17px;
+padding-bottom: 16px;
+padding-right: 35px;
+padding-left: 35px;
+}
+.sign {
+  color: black;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+h1 {
+  width: 646px;
+  font-family: "Manrope";
+font-size: 60px;
+font-weight: 800;
+line-height: 74px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+}
+.main {
+
+}
+.main-left p {
+  font-family: "Manrope";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #64607D;
+  width: 446px;
+  margin-top: 19px;
+  margin-bottom: 47px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+gap: 50px;
+}
+.our-process {
+  border-radius: 1px solid #3734A9;
+border-radius: 47px;
+text-decoration: none;
+color: white;
+font-family: "Manrope";
+font-size: 16px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 36px;
+padding-left: 36px; 
+background-color: #3734A9;
+}
+.our-process:hover{
+  color: coral;
+}
+.works {
+  position: relative;
+  color: #3734A9;
+  font-family: "Manrope";
+font-size: 17px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+bottom: 20px;
+left: 7px;
+}
+.main-right {
+  display: flex;
+  flex-direction: column;
+}
+.main-right h3 {
+  font-family: "Manrope";
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #3734A9;
+margin-bottom: 22px;
+}
+input {
+  width: 356px;
+  height: 60px;
+  border: 1px solid #DFE4F1;
+  font-family: "Manrope";
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #64607D;
+padding-top: 16px;
+padding-bottom: 14px;
+padding-left: 21px;
+margin-bottom: 24px;
+}
+.btn {
+  width: 356px;
+  height: 60px;
+  background-color: #FF7F5C;
+  border: 1px solid #FF7F5C;
+  font-family: "Manrope";
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+cursor: pointer;
+}
+.trusted {
+  margin-top: 41px;
+}
+.trusted h2 {
+  font-family: "Manrope";
+font-size: 22px;
+font-weight: 700;
+line-height: 30.05px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.logos {
+display: flex;
+align-items: center;
+gap: 50px;
+margin-top: 39px;
+position: relative;
+left: 80px;
+}
+.neglected {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 112px;
+}
+.neglected h3 {
+  font-family: "Manrope";
+font-size: 42px;
+font-weight: 800;
+line-height: 60px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 13px;
+width: 699px;
+text-align: center;
+}
+.neglected p {
+  font-family: "Manrope";
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #64607D;
+width: 604px;
+margin-bottom: 25px;
+text-align: center;
+}
+.neglected h4 {
+  font-family: Manrope;
+font-size: 17px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border: 1px solid #3734A9;
+background-color: #3734A9;
+width: 549px;
+height: 48px;
+padding-top: 8px;
+padding-bottom: 10px;
+color: white;
+border-radius: 10px;
+}
+.numbers {
+  margin-top: 69px;
+  margin-bottom: 114px;
+}
+.numbers-container{
+display: flex;
+align-items: center;
+gap: 118px;
+}
+.lamp-card{
+  background-image: url(./assets/images/1.png);
+  background-repeat: no-repeat;
+  background-position: 180px top;
+
+}
+.lamp-card h3 { 
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;  
+  width: 190px;
+  margin-top: 24px;
+}
+.lamp-card p {
+  font-family: "Manrope";
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #757095;
+margin-top: 1px;
+width: 279px;
+}
+.pencil-card{
+  background-image: url(./assets/images/2.png);
+  background-repeat: no-repeat;
+  background-position: 180px top;
+}
+.pencil-card h3 { 
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;  
+  width: 190px;
+  margin-top: 24px;
+}
+.pencil-card p {
+  font-family: "Manrope";
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #757095;
+margin-top: 1px;
+width: 279px;
+}
+
+.message-card{
+  background-image: url(./assets/images/3.png);
+  background-repeat: no-repeat;
+ background-position: 180px 10px;
+}
+.message-card h3 { 
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;  
+  width: 190px;
+  margin-top: 24px;
+}
+.message-card p {
+  font-family: "Manrope";
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #757095;
+margin-top: 1px;
+width: 279px;
+}
+.border {
+  width: 1044px;
+  height: 196px;
+  border: 1px solid #F8F9FD;
+  background-color: #F8F9FD;
+  margin: 0% auto;
+  margin-bottom: 169px;
+  border-radius: 10px;
+}
+.border-container{
+  display: flex;
+  align-items: center;
+  gap: 160px;
+}
+.border-container h2 {
+  font-family: "Manrope";
+font-size: 36px;
+font-weight: 800;
+line-height: 56px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 561px;
+margin-top: 38px;
+margin-bottom: 46px;
+margin-left: 70px;
+}
+.border-container h3 {
+  width: 181px;
+  height: 60px;
+  border: 1px solid #4F46BA;
+  background-color: #4F46BA;
+  font-family: "Gilroy-SemiBold";
+font-size: 16px;
+line-height: 18.75px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border-radius: 10px;
+padding-top: 21px;
+padding-bottom: 19px;
+padding-left: 43px;
+padding-right: 44px;
+color: white;
+}
